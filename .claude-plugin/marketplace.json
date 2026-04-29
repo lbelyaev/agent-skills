@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "lbelyaev-agent-skills",
+  "description": "Leonid's personal Claude Code skills",
+  "owner": {
+    "name": "Leonid Belyaev",
+    "email": "lbeliaev@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "git-flow",
+      "description": "Git workflow procedural rules — run all gates before push, explicit staging, no force-push, generate PR body from git log.",
+      "source": "./plugins/git-flow",
+      "category": "development"
+    }
+  ]
+}

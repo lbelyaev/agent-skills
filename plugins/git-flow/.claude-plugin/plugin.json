@@ -1,0 +1,8 @@
+{
+  "name": "git-flow",
+  "description": "Git workflow skills — landing a branch as a PR with all gates green, no force-pushes, no hook bypasses.",
+  "author": {
+    "name": "Leonid Belyaev",
+    "email": "lbeliaev@gmail.com"
+  }
+}
